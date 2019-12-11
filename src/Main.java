@@ -5,7 +5,7 @@ import java.lang.String;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Bryant is awesome");
+        System.out.println("Test Begin");
         Pokedex MyPokedex = new Pokedex();
         int userselection;
 
@@ -14,5 +14,6 @@ public class Main {
         userselection = input.nextInt();
         MyPokedex.GetPokemon(userselection);
 
+        System.out.println("End Test");
     }
 }
